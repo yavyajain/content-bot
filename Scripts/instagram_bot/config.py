@@ -13,7 +13,7 @@ MY_HANDLE           = "gobi_automates"
 MIN_VIEWS           = 10_000
 TOP_N               = 3
 SPIN_COUNT          = 5
-SCRAPE_WINDOW_HOURS = 24
+SCRAPE_WINDOW_HOURS = 168  # 7 days — captures a full week of competitor posts per run
 
 OUTPUT_DIR = Path(__file__).parent / "output"
 OUTPUT_DIR.mkdir(exist_ok=True)

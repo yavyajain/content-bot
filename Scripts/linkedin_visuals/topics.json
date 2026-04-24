@@ -1,0 +1,20 @@
+{
+  "next_index": 0,
+  "topics": [
+    "RAG (Retrieval-Augmented Generation) Architecture",
+    "How LLMs Actually Work — Transformer Architecture",
+    "Agentic AI — Tool Use and ReAct Loop",
+    "Vector Databases and Semantic Search",
+    "Fine-tuning vs Prompt Engineering vs RAG",
+    "AI Agent Memory Systems",
+    "Multi-Agent Orchestration Patterns",
+    "Function Calling and Tool Use in LLMs",
+    "The Context Window Explained",
+    "Embeddings — How Text Becomes Numbers",
+    "AI Workflow Automation with n8n and Make",
+    "Prompt Chaining and Chain of Thought",
+    "Model Context Protocol (MCP) Explained",
+    "AI Safety and Alignment — Key Concepts",
+    "How Claude and GPT Differ Under the Hood"
+  ]
+}
