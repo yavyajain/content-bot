@@ -1,0 +1,11 @@
+RAG doesn't just query an LLM. It gives it memory.
+
+It's easy to mistake a language model for an encyclopedia. You ask, it answers. But the model doesn't know your data. It knows its training set. Wire in a retrieval layer and suddenly you're getting answers grounded in documents you uploaded last Tuesday.
+
+The flow: chunk your knowledge base, embed it, store vectors. At query time, embed the question, pull the closest matches, stuff them into the prompt. The LLM then generates against real context instead of guessing.
+
+Most hallucination issues I've diagnosed come from skipping this step. The model wasn't wrong. It just had no data to work from.
+
+⚡ Follow Govind Goel for more AI automation breakdowns
+
+#AIAgents #MachineLearning #RAG #LLMs #Automation #ArtificialIntelligence
