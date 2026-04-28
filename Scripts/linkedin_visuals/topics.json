@@ -1,20 +1,15 @@
 {
-  "next_index": 3,
+  "next_index": 0,
   "topics": [
-    "RAG (Retrieval-Augmented Generation) Architecture",
-    "How LLMs Actually Work \u2014 Transformer Architecture",
-    "Agentic AI \u2014 Tool Use and ReAct Loop",
-    "Vector Databases and Semantic Search",
-    "Fine-tuning vs Prompt Engineering vs RAG",
-    "AI Agent Memory Systems",
-    "Multi-Agent Orchestration Patterns",
-    "Function Calling and Tool Use in LLMs",
-    "The Context Window Explained",
-    "Embeddings \u2014 How Text Becomes Numbers",
-    "AI Workflow Automation with n8n and Make",
-    "Prompt Chaining and Chain of Thought",
-    "Model Context Protocol (MCP) Explained",
-    "AI Safety and Alignment \u2014 Key Concepts",
-    "How Claude and GPT Differ Under the Hood"
+    "How to build a strong art portfolio for college applications",
+    "The difference between fine arts and design — which is right for you?",
+    "What top art schools like RISD and Parsons look for in applicants",
+    "Career paths you can take with a design degree",
+    "How UI/UX design is shaping the future of technology",
+    "Architecture vs Interior Design — understanding the difference",
+    "Student success story — getting into a top global art school from India",
+    "5 portfolio mistakes Indian art students make and how to fix them",
+    "Why studying art and design abroad is worth it",
+    "How to prepare for art school interviews"
   ]
 }
