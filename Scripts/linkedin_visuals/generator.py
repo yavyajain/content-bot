@@ -49,8 +49,8 @@ _SCHEMES = {
 }
 
 _SYSTEM = """\
-You are a technical diagram architect for AI/ML educational content on LinkedIn.
-Design clear, minimal diagrams explaining complex systems in 6-10 components.
+You are a visual diagram architect for art and design education content on LinkedIn.
+Design clear, minimal diagrams explaining art, design, architecture, and creative career concepts in 6-10 components.
 
 Return ONLY a JSON object (no markdown fences, no explanation):
 {
@@ -65,7 +65,7 @@ Return ONLY a JSON object (no markdown fences, no explanation):
 }
 Rules: labels ≤4 words, 6-10 nodes, 5-12 edges, left-to-right flow."""
 
-_PROMPT = "Design a diagram explaining: {topic}\n\nFor @gobi_automates LinkedIn audience (AI automation brand)."
+_PROMPT = "Design a diagram explaining: {topic}\n\nFor @artiste360 LinkedIn audience — an art and design school in Mumbai, India that helps students get into top global colleges like RISD, Parsons, UAL, Pratt, and Cambridge."
 
 
 def _uid() -> str:
@@ -234,10 +234,10 @@ def _watermark_el() -> dict:
         "seed": _seed(), "version": 1, "versionNonce": _seed(),
         "isDeleted": False, "boundElements": None,
         "updated": ts, "link": None, "locked": False,
-        "text": "⚡ @gobi_automates",
+      "text": "@artiste360",
         "fontSize": 12, "fontFamily": 1,
         "textAlign": "left", "verticalAlign": "top", "baseline": 10,
-        "containerId": None, "originalText": "⚡ @gobi_automates",
+        "containerId": None, "originalText": "@artiste360",
         "lineHeight": 1.25,
     }
 
@@ -293,8 +293,8 @@ def generate(topic: str) -> Path:
     cap = OUTPUT_DIR / f"{date}-{slug}.caption.txt"
     cap.write_text(
         f"{spec.get('description', topic)}\n\n"
-        "⚡ Follow @gobi_automates for daily AI automation content\n"
-        "#AIAgents #Automation #MachineLearning #artificialintelligence #LinkedInTech"
+        "🎨 Follow @artiste360 for art & design education, portfolio tips, and college application guidance.\n"
+        "#ArtEducation #DesignSchool #PortfolioTips #ArtCollege #CreativeCareers #RISD #Parsons #UAL #MumbaiArt #Artiste360"
     )
     print(f"[LinkedIn Visuals] Saved: {out.name}")
     return out
