@@ -1,14 +1,16 @@
-[
-  "risdmuseum",
-  "parsonsschoolofdesign",
-  "sva_edu",
-  "prattinstitute",
-  "nid_india",
-  "srishti_edu",
-  "theartstudent",
-  "schoolism",
-  "dezeen",
-  "thedailyrendering",
-  "behance",
-  "artwhale.in"
-]
+{
+  "handles": [
+    "risdmuseum",
+    "parsonsschoolofdesign",
+    "sva_edu",
+    "prattinstitute",
+    "nid_india",
+    "srishti_edu",
+    "theartstudent",
+    "schoolism",
+    "dezeen",
+    "thedailyrendering",
+    "behance",
+    "artwhale.in"
+  ]
+}
