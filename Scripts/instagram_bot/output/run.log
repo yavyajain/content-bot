@@ -55,3 +55,12 @@
 [2026-04-28 12:15:26] No unanalyzed posts with ≥10,000 views today. Skipping analysis.
 [2026-04-28 12:15:26] (All qualifying posts may have already been analyzed, or none hit the threshold yet.)
 [2026-04-28 12:15:26] ============================================================
+[2026-04-29 11:56:49] ============================================================
+[2026-04-29 11:56:49] Pipeline started
+[2026-04-29 11:56:49] Competitors (12): ['risdmuseum', 'parsonsschoolofdesign', 'sva_edu', 'prattinstitute', 'nid_india', 'srishti_edu', 'theartstudent', 'schoolism', 'dezeen', 'thedailyrendering', 'behance', 'artwhale.in']
+[2026-04-29 11:56:49] Stage 1: Scraping Instagram (last 24h only)...
+[2026-04-29 11:57:54] Stage 1 complete: 21 new post(s) fetched
+[2026-04-29 11:57:54] Stage 2: Qualifying + late-bloomer re-check...
+[2026-04-29 11:58:03] No unanalyzed posts with ≥10,000 views today. Skipping analysis.
+[2026-04-29 11:58:03] (All qualifying posts may have already been analyzed, or none hit the threshold yet.)
+[2026-04-29 11:58:03] ============================================================
